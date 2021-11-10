@@ -42,10 +42,22 @@
   flex-direction: row;
   justify-content: space-between;
   list-style-type: none;
+  color: #fff;
 }
 .uls li {
   padding-left: 5rem;
   padding-top: 3rem;
+}
+
+.uls a:link {
+  text-decoration: none;
+}
+.uls a:hover {
+  color: white;
+}
+
+.nav-container a {
+  text-decoration: none;
 }
 
 .nav-container {
@@ -58,4 +70,132 @@
 .nav-container li {
   list-style-type: none;
   padding-top: 15px;
+}
+
+.main-page-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+
+/* .main-page-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+} */
+
+.main-page-container h3 {
+  color: #fff;
+  font-size: 4rem;
+  margin-top: -100px;
+}
+
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.foot-container {
+  background-color: cornsilk;
+  width: 100%;
+  height: 40vh;
+}
+
+.cards {
+  padding: 4rem;
+  background: #fff;
+}
+
+.cards h2 {
+  text-align: center;
+}
+
+/* .container-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1px;
+} */
+
+.cards__container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cards__wrapper {
+  position: relative;
+  margin: 50px 0 45px;
+}
+
+.cards__items {
+  margin-bottom: 24px;
+}
+
+.cards__item {
+  display: flex;
+  flex: 1;
+  margin: 0 1rem;
+  border-radius: 10px;
+}
+
+.cards__item__pic-wrap {
+  position: relative;
+  width: 100%;
+  padding-top: 67%;
+  overflow: hidden;
+}
+
+.fade-img {
+  animation-name: fade-img;
+  animation-duration: 2s;
+}
+
+.cards__item__pic-wrap::after {
+  content: attr(data-category);
+  position: absolute;
+  bottom: 0;
+  margin-left: 10px;
+  padding: 6px 8px;
+  max-width: calc((100%) - 60px);
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #1f98f4;
+  box-sizing: border-box;
+}
+
+.cards__item__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  transition: all 0.2s linear;
+}
+
+.cards__item__img:hover {
+  transform: scale(1.1);
+}
+
+.cards__item__info {
+  padding: 20px 30px 30px;
 }
