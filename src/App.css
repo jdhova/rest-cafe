@@ -37,6 +37,8 @@
   }
 } */
 
+/* Nav Bar CSS  STARTS */
+
 .uls {
   display: flex;
   flex-direction: row;
@@ -72,6 +74,10 @@
   padding-top: 15px;
 }
 
+/* Nav Bar CSS  ENDS */
+
+/* Main-page CSS  STARTS */
+
 .main-page-container {
   height: 100vh;
   width: 100%;
@@ -105,35 +111,59 @@ video {
   z-index: -1;
 }
 
-.foot-container {
+/* Main-page CSS  ENDS */
+
+/* .foot-container {
   background-color: cornsilk;
   width: 100%;
   height: 40vh;
-}
+} */
 
 .cards {
-  padding: 4rem;
-  background: #fff;
+  padding: 2rem;
+  background: white;
 }
 
+.caption {
+  width: 200px;
+  text-align: center;
+}
 .cards h2 {
   text-align: center;
 }
 
 /* .container-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-gap: 1px;
 } */
 
-.cards__container {
+.cards__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.4px;
+}
+
+.container-grid {
+  width: 600px;
+  height: 520px;
+}
+
+.container-grid img {
+  width: 100%;
+  height: auto;
+}
+
+/* .cards__container {
   display: flex;
-  flex-flow: column;
+  flex-flow: row;
   align-items: center;
   max-width: 1120px;
   width: 90%;
   margin: 0 auto;
-}
+} */
+
+/* 
 
 .cards__wrapper {
   position: relative;
@@ -198,4 +228,4 @@ video {
 
 .cards__item__info {
   padding: 20px 30px 30px;
-}
+} */
