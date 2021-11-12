@@ -3,6 +3,9 @@ import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 //import { Routes ,Route } from 'react-router-dom';
 import Mainpage from './components/Mainpage';
+import Soups from './components/Soups';
+import Rice from './components/Rice';
+import Swallow from './components/Swallow';
 import Footer from './components/Footer';
 import Drinks from './components/Drinks';
 import Menu from './components/Menu';
@@ -13,6 +16,10 @@ const App = () => {
       <Router>
         <Routes>
           <Route path='/' exact element={<Mainpage />} />
+          <Route path='/soups' exact element={<Soups />} />
+          <Route path='/Swallow' exact element={<Swallow />} />
+          <Route path='/Rice' exact element={<Rice />} />
+          <Route path='/soups' exact element={<Soups />} />
           {/* this returns the exact home component when we vsit '/' */}
           {/* Route exact path="/" component={Home} /> */}
         </Routes>
