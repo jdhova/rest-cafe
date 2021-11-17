@@ -20,6 +20,7 @@ const App = () => {
           <Route path='/Swallow' exact element={<Swallow />} />
           <Route path='/Rice' exact element={<Rice />} />
           <Route path='/soups' exact element={<Soups />} />
+          <Route path='/menu' exact element={<Menu />} />
           {/* this returns the exact home component when we vsit '/' */}
           {/* Route exact path="/" component={Home} /> */}
         </Routes>
@@ -30,20 +31,16 @@ const App = () => {
 
 export default App;
 
-// Make nav bar
-// Put Nav bar in app.js and create routes
-// Create Basic Home page with video and center
-
-// Routing
-// Home page displays all Routes
-// Individial routes displays individial components
-
-// Day 2
-// Ovelap video, fixup css, responsive, primay color,
-// use props for navlinks and colors etc  think something
-
-// create other sections menu and slide bar on home page
-
-// Make responsive
-// Make video overlap with nav.
 // implement primary colors on the hover for nav link
+// improve on colors and nav bar links add effects and
+// what it should be
+
+// menu soups etc  fix so they show with photos//
+// arrange background phootos for each section and back link
+// designs as well.
+
+// indent CSS to be clear and demacated.
+
+// check for respoinsiveness when all is done
+
+// add price tags and incoporate shopping cart.

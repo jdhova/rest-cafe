@@ -1,11 +1,15 @@
 import React from 'react';
 //import './Cards.css';
 import CardInfo from './CardInfo';
+import { Link } from 'react-router-dom';
 
 const Soups = () => {
   return (
     <div className='cards'>
       <h1>Soups!</h1>
+      <Link to='/' className='navbar-home-logo'>
+        <i class='fa fa-home'></i>
+      </Link>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>

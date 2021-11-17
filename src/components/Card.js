@@ -54,7 +54,7 @@ const Card = () => {
               path='/menu'
             />
             <CardInfo
-              src='photos/swallow.jpeg'
+              src='photos/rice3.jpeg'
               text='lorem12 lorem12l lorem12 lorem12 lorem12l lorem12 lorem12 lorem12l lorem12'
               label='Todays Special'
               path='/menu'
@@ -63,7 +63,7 @@ const Card = () => {
 
           <ul className='cards__items'>
             <CardInfo
-              src='photos/swallow.jpeg'
+              src='photos/gmeatsoup.jpeg'
               text='lorem12 lorem12l lorem12 lorem12 lorem12l lorem12 lorem12 lorem12l lorem12'
               label='Soups'
               path='/soups'
@@ -75,7 +75,7 @@ const Card = () => {
               path='/swallow'
             />
             <CardInfo
-              src='photos/swallow.jpeg'
+              src='photos/coconut-rice.jpeg'
               text='lorem12 lorem12l lorem12 lorem12 lorem12l lorem12 lorem12 lorem12l lorem12'
               label='Rice'
               path='/rice'
