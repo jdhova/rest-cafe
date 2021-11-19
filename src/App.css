@@ -93,33 +93,41 @@ video {
 
 .cards {
   padding: 4rem;
-  background: #fff;
+  /* background: #fff; */
+  /* background: blue; */
+  background-image: url('./assets/images/img-1.jpeg');
 }
 
 .cards h1 {
   text-align: center;
-  font-size: 1.9rem;
-  font-weight: 700;
+  color: #fff;
+  font-size: 2.1rem;
+  font-weight: 900;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .cards h2 {
   text-align: center;
+  color: #fff;
   padding: 20px 0px 30px;
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 1.9rem;
+  font-weight: 700;
   font-style: oblique;
   font-kerning: inherit;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .cards__container {
+  /* background-color: whitesmoke; */
   display: flex;
   flex-flow: column;
   align-items: center;
   max-width: 1120px;
   width: 90%;
   margin: 0 auto;
+  /* border: 1px solid blue; */
+  /* border-color: solid white;
+  border-width: medium; */
 }
 
 .cards__wrapper {
@@ -128,6 +136,7 @@ video {
 }
 
 .cards__items {
+  /* border: 1px solid whitesmoke; */
   margin-bottom: 24px;
 }
 
@@ -138,6 +147,7 @@ video {
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
+  border: 15px solid whitesmoke;
 }
 
 .cards__item__link {
@@ -203,7 +213,8 @@ video {
 }
 
 .cards__item__text {
-  color: #252e48;
+  /* color: #252e48; */
+  color: white;
   font-size: 18px;
   line-height: 24px;
 }

@@ -1,13 +1,13 @@
 import './App.css';
-import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+// import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 //import { Routes ,Route } from 'react-router-dom';
 import Mainpage from './components/Mainpage';
 import Soups from './components/Soups';
 import Rice from './components/Rice';
 import Swallow from './components/Swallow';
-import Footer from './components/Footer';
-import Drinks from './components/Drinks';
+// import Footer from './components/Footer';
+// import Drinks from './components/Drinks';
 import Menu from './components/Menu';
 
 const App = () => {
@@ -44,3 +44,8 @@ export default App;
 // check for respoinsiveness when all is done
 
 // add price tags and incoporate shopping cart.
+
+//add slides
+
+//fix photos for soup rice main menu then homepage and footer
+// start incoporating shopping cart

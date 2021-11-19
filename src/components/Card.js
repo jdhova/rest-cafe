@@ -10,16 +10,16 @@ const Card = () => {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardInfo
+              path='/Menu'
               src='photos/swallow.jpeg'
               text='lorem12 lorem12l lorem12 lorem12 lorem12l lorem12 lorem12 lorem12l lorem12 '
               label='Todays Special'
-              path='/menu'
             />
             <CardInfo
               src='photos/rice3.jpeg'
               text='lorem12 lorem12l lorem12 lorem12 lorem12l lorem12 lorem12 lorem12l lorem12'
               label='Todays Special'
-              path='/menu'
+              path='/Menu'
             />
           </ul>
 
@@ -37,7 +37,7 @@ const Card = () => {
               path='/swallow'
             />
             <CardInfo
-              src='photos/coconut-rice.jpeg'
+              src='photos/rice3.jpeg'
               text='lorem12 lorem12l lorem12 lorem12 lorem12l lorem12 lorem12 lorem12l lorem12'
               label='Rice'
               path='/rice'

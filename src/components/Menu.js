@@ -17,78 +17,78 @@ const Menu = () => {
             <CardInfo
               src='photos/swallow.jpeg'
               text='lorem12 lorem12l lorem12 lorem12 lorem12l lorem12 lorem12 lorem12l lorem12 '
-              label='Todays Special'
+              label='Todays Special: Poundo and Egusi'
               path='/menu'
             />
             <CardInfo
-              src='photos/swallow.jpeg'
+              src='photos/rice3.jpeg'
               text='lorem12 lorem12l lorem12 lorem12 lorem12l lorem12 lorem12 lorem12l lorem12'
-              label='Todays Special'
+              label='Todays Special: Jelloff Rice'
               path='/menu'
             />
           </ul>
           <h2>Rice</h2>
           <ul className='cards__items'>
             <CardInfo
-              src='photos/swallow.jpeg'
+              src='photos/frice.jpeg'
               text='lorem12 lorem12l lorem12 lorem12 lorem12l lorem12 lorem12 lorem12l lorem12 '
-              label='Todays Special'
+              label='Fried Rice'
               path='/menu'
             />
 
             <CardInfo
-              src='photos/swallow.jpeg'
+              src='photos/rice-beans.jpeg'
               text='lorem12 lorem12l lorem12 lorem12 lorem12l lorem12 lorem12 lorem12l lorem12'
-              label='Todays Special'
+              label='Rice and Beans'
               path='/menu'
             />
             <CardInfo
-              src='photos/swallow.jpeg'
+              src='photos/rstew.jpeg'
               text='lorem12 lorem12l lorem12 lorem12 lorem12l lorem12 lorem12 lorem12l lorem12'
-              label='Todays Special'
+              label='Rice and Stew'
               path='/menu'
             />
           </ul>
           <h2>Sallow</h2>
           <ul className='cards__items'>
             <CardInfo
-              src='photos/swallow.jpeg'
+              src='photos/oha.jpeg'
               text='lorem12 lorem12l lorem12 lorem12 lorem12l lorem12 lorem12 lorem12l lorem12 '
-              label='Todays Special'
+              label='Oha soup and Poundo/eba'
               path='/menu'
             />
             <CardInfo
-              src='photos/swallow.jpeg'
+              src='photos/okro2.jpeg'
               text='lorem12 lorem12l lorem12 lorem12 lorem12l lorem12 lorem12 lorem12l lorem12'
-              label='Todays Special'
+              label='Okro and Poundo/eba'
               path='/menu'
             />
             <CardInfo
-              src='photos/swallow.jpeg'
+              src='photos/ogbono.jpeg'
               text='lorem12 lorem12l lorem12 lorem12 lorem12l lorem12 lorem12 lorem12l lorem12'
-              label='Todays Special'
+              label='Ogbono and Poundo/eba'
               path='/menu'
             />
           </ul>
           <h2>Breakfast</h2>
           <ul className='cards__items'>
             <CardInfo
-              src='photos/swallow.jpeg'
+              src='photos/yam-egg.jpeg'
               text='lorem12 lorem12l lorem12 lorem12 lorem12l lorem12 lorem12 lorem12l lorem12'
-              label='Soups'
-              path='/soups'
+              label='Yam and Fried egg sauce'
+              path='/menu'
             />
             <CardInfo
-              src='photos/swallow.jpeg'
+              src='photos/akara2.jpeg'
               text='lorem12 lorem12l lorem12 lorem12 lorem12l lorem12 lorem12 lorem12l lorem12'
-              label='Swallow'
-              path='/swallow'
+              label='Akara'
+              path='/menu'
             />
             <CardInfo
-              src='photos/swallow.jpeg'
+              src='photos/plantain-egg.jpeg'
               text='lorem12 lorem12l lorem12 lorem12 lorem12l lorem12 lorem12 lorem12l lorem12'
-              label='Rice'
-              path='/rice'
+              label='Plantain and Fried egg sauce'
+              path='/menu'
             />
           </ul>
         </div>

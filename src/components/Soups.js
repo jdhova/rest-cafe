@@ -14,43 +14,48 @@ const Soups = () => {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardInfo
-              src='photos/swallow.jpeg'
+              src='photos/cat-fish.jpeg'
               text='lorem12 lorem12l lorem12 lorem12 lorem12l lorem12 lorem12 lorem12l lorem12 '
-              label='Todays Special'
-              path='/menu'
+              label='Cat Fish Pepper Soup'
+              path='/soups'
             />
             <CardInfo
-              src='photos/swallow.jpeg'
+              src='photos/cow-tail.jpeg'
               text='lorem12 lorem12l lorem12 lorem12 lorem12l lorem12 lorem12 lorem12l lorem12'
-              label='Todays Special'
-              path='/menu'
+              price='23.00'
+              label='Cow Tail Pepper Soup'
+              path='/soups'
             />
             <CardInfo
-              src='photos/swallow.jpeg'
+              src='photos/assorted.jpeg'
               text='lorem12 lorem12l lorem12 lorem12 lorem12l lorem12 lorem12 lorem12l lorem12'
-              label='Todays Special'
-              path='/menu'
+              price='20.00'
+              label='Assorted Pepper Soup'
+              path='/soups'
             />
           </ul>
 
           <ul className='cards__items'>
             <CardInfo
-              src='photos/swallow.jpeg'
+              src='photos/goat-meat.jpeg'
               text='lorem12 lorem12l lorem12 lorem12 lorem12l lorem12 lorem12 lorem12l lorem12'
-              label='Soups'
+              price='33.00'
+              label='Goat Meat Pepper Soup'
               path='/soups'
             />
             <CardInfo
-              src='photos/swallow.jpeg'
+              src='photos/tilapia.jpeg'
               text='lorem12 lorem12l lorem12 lorem12 lorem12l lorem12 lorem12 lorem12l lorem12'
-              label='Swallow'
-              path='/swallow'
+              price='31.00'
+              label='Tilapia Pepper Soup'
+              path='/soups'
             />
             <CardInfo
-              src='photos/swallow.jpeg'
+              src='photos/turkey.jpeg'
               text='lorem12 lorem12l lorem12 lorem12 lorem12l lorem12 lorem12 lorem12l lorem12'
-              label='Rice'
-              path='/rice'
+              price='11.00'
+              label='Turkey Pepper Soup'
+              path='/soups'
             />
           </ul>
         </div>
