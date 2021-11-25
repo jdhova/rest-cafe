@@ -40,7 +40,7 @@ const Rice = () => {
             <CardInfo
               src='photos/coconut-rice.jpeg'
               text='lorem12 lorem12l lorem12 lorem12 lorem12l lorem12 lorem12 lorem12l lorem12'
-              price='17.00'
+              price='17.50'
               label='Minced Vegetable Rice'
               path='/rice'
             />
